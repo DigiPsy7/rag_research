@@ -1,0 +1,54 @@
+*.pyc
+qa_metric_cache*
+*.DS_Store*
+*__pycache__*
+*.json
+*.csv
+# Python environment and caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Model weights and checkpoints
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.gguf
+
+# Downloaded models and Hugging Face caches
+models/
+.cache/
+huggingface/
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+token
+wandb/
+
+# Generated experiment outputs
+results/
+logs/
+runs/
+outputs/
+
+# Large archives and backups
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Local system files
+Thumbs.db
+Desktop.ini
+
+# Syllabus documents - review redistribution permissions before publishing
+syllabi/
